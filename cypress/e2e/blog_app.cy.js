@@ -9,4 +9,4 @@ describe('Blog app', function() {
     cy.get('form').should('be.visible')
     cy.contains('Login') // Ensure that the form contains a "Login" text
   })
-})
+}) // t
